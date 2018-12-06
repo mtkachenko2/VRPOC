@@ -11,7 +11,7 @@
   },
   "scripts": {
     "image-generation-simulation": "node tools/copy-images.js",
-    "argos": "argos upload tmp/output/chrome --token 053fbebca73062979b73c24843d600c5f72ad3cc || true"
+    "argos": "argos upload tmp/output/chrome --token $ARGOS_TOKEN || true"
   },
   "dependencies": {
     "argos-cli": "0.0.9"
