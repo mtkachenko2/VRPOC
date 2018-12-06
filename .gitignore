@@ -1,0 +1,29 @@
+# Exclude dependencies
+node_modules
+
+# Exclude coverage
+coverage
+.nyc_output
+
+# Exclude compiled files
+build
+build-storybook-static
+
+# Exclude temporary files
+.eslintcache
+npm-debug.log
+yarn-error.log
+
+# Exclude IDE project folders
+.idea
+*.sublime-project
+*.sublime-workspace
+.vscode
+
+# Exclude OS files
+.DS_Store
+
+# Check-in yarn.lock on applications but not for libraries
+# https://github.com/yarnpkg/yarn/issues/838#issuecomment-253362537
+yarn.lock
+yarn-error.log

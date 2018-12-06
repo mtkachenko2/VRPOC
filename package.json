@@ -1,0 +1,19 @@
+{
+  "name": "@mtkachenko2/VRPOC",
+  "private": false,
+  "author": "mtkachenko2",
+  "description": "Testing argos visual regression testing effort",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:mtkachenko2/VRPOC"
+  },
+  "scripts": {
+    "anuka": "argos upload tmp/output/chrome --token a4ca893487e20fc048bf20164173b6ab1fc4ad0e || true"
+  },
+  "dependencies": {
+    "argos-cli": "0.0.9"
+  },
+  "devDependencies": {}
+}
