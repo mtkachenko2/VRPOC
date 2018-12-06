@@ -38,6 +38,8 @@ jobs:
           name: Visual regression tests
           command: |
             yarn image-generation-simulation
+            export ARGOS_TOKEN=053fbebca73062979b73c24843d600c5f72ad3cc
+            ARGOS_COMMIT=$CIRCLE_SHA1 ARGOS_BRANCH=$CIRCLE_BRANCH \
             yarn argos
 
 
