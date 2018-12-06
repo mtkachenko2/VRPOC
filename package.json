@@ -10,7 +10,8 @@
     "url": "git@bitbucket.org:mtkachenko2/VRPOC"
   },
   "scripts": {
-    "anuka": "argos upload tmp/output/chrome --token a4ca893487e20fc048bf20164173b6ab1fc4ad0e || true"
+    "image-generation-simulation": "node tools/copy-images.js",
+    "argos": "argos upload tmp/output/chrome --token a4ca893487e20fc048bf20164173b6ab1fc4ad0e || true"
   },
   "dependencies": {
     "argos-cli": "0.0.9"
